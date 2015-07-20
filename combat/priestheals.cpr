@@ -1,0 +1,41 @@
+gcd:1500
+
+use:food
+selfhp<60
+!incombat
+channelingtime:15000
+breakoncombat
+
+
+//Buffs\\
+//Power Word: Fortitude
+castspell:castspell:1243;1244;1245;2791;10937;10938
+targetbuff!1243;1244;1245;2791;10937;10938
+mana>10
+!incombat
+
+//inner fire
+castspell:588;7128;602;1006;10951;10952
+selfbuff!588;7128;602;1006;10951;10952
+!incombat
+mana>5
+cooldown:1800000
+
+//Healing\\
+
+//heal
+castspell:castspell:2054;2055;6063;6064;8812;2060;10963;10964;10965;25314
+mana>10
+targethp<60
+
+//Power word: Shield
+castspell:17;592;600;3747;6065;6066;10898;10899;10900;10901
+mana>10
+targethp<65
+Cooldown:35000
+
+//Renew
+castspell:139;6074;6075;6076;6077;6078;10927;10928;10929;25315
+mana>10
+targethp<70
+cooldown:15000

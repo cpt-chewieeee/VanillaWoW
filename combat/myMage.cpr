@@ -1,0 +1,27 @@
+gcd:1500
+
+
+//cast fireball
+cast:12
+mana>30
+distance<35
+
+//drink
+cast:14
+mana<30
+!incombat
+channelingtime:15000
+breakoncombat
+
+//frostarmor
+cast:13
+mana>70
+selfbuff!168
+!incombat
+
+//eat
+cast:15
+selfhp<40
+!incombat
+channelingtime:15000
+breakoncombat
